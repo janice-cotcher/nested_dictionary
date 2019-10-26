@@ -2,6 +2,7 @@
 # to account for multiple vehicles
 vehicles = {"Wonder Woman": "Invisible Plane",
             "The Flash": None,
+            # Batman has a nested set of vehicles
             "Batman": {"Tumbler", "Batmobile", "The Bat", "Batpod"}
             }
 # print a list of thhe hero's vehicles
