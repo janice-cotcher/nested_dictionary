@@ -5,7 +5,7 @@ vehicles = {"Wonder Woman": "Invisible Plane",
             # Batman has a nested set of vehicles
             "Batman": {"Tumbler", "Batmobile", "The Bat", "Batpod"}
             }
-# print a list of thhe hero's vehicles
+# print a list of the hero's vehicles
 for heroes in vehicles:
     vehicle = vehicles[heroes]
     # we need a nested loop for Batman because he has multiple vehicles
